@@ -43,3 +43,6 @@ market forex -c ZAR
 * `com.lvmp.polygon`: Handles interaction with the data provider service.
 * `com.lvmp.persistance`: Manages local file storage for API keys.
 * `com.lvmp.config`: Defines application configuration paths (e.g., `.market` directory).
+
+### Tools used
+[![My Skills](https://skillicons.dev/icons?i=java,spring,git&perline=6)](https://skillicons.dev)
