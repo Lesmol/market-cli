@@ -1,5 +1,6 @@
 package com.lvmp.cli.commands.forex;
 
+import picocli.CommandLine.Option;
 import picocli.CommandLine.Command;
 
 import java.util.concurrent.Callable;
@@ -12,6 +13,10 @@ import java.util.concurrent.Callable;
         }
 )
 public class Forex implements Callable<Integer> {
+
+    @Option( names = {"-c", "--currency"}, required = true)
+    private String currency;
+
     @Override
     public Integer call() throws Exception {
         System.out.println("This is the forex sub-command");
