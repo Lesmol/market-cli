@@ -1,7 +1,7 @@
 package com.lvmp.cli;
 
-import com.lvmp.cli.commands.Forex;
-import com.lvmp.cli.commands.Stock;
+import com.lvmp.cli.commands.forex.Forex;
+import com.lvmp.cli.commands.stock.Stock;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 
