@@ -1,4 +1,4 @@
-package com.lvmp.cli.commands;
+package com.lvmp.cli.commands.stock;
 
 import picocli.CommandLine.Command;
 
@@ -11,7 +11,7 @@ import java.util.concurrent.Callable;
 public class StockReturn implements Callable<Integer> {
 
     @Override
-    public Integer call() throws Exception {
+    public Integer call() {
         System.out.println("This is the stock return sub-command.");
         return 0;
     }
