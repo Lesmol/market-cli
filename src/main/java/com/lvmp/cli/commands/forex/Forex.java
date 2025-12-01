@@ -1,4 +1,4 @@
-package com.lvmp.cli.commands;
+package com.lvmp.cli.commands.forex;
 
 import picocli.CommandLine.Command;
 

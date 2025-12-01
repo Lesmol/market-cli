@@ -1,4 +1,4 @@
-package com.lvmp.cli.commands;
+package com.lvmp.cli.commands.stock;
 
 import picocli.CommandLine.Command;
 
@@ -10,7 +10,7 @@ import java.util.concurrent.Callable;
 )
 public class DiscountedCashFlow implements Callable<Integer> {
     @Override
-    public Integer call() throws Exception {
+    public Integer call() {
         System.out.println("Discounted cash-flow calculations.");
         return 0;
     }

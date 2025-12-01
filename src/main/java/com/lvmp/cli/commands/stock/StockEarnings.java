@@ -1,4 +1,4 @@
-package com.lvmp.cli.commands;
+package com.lvmp.cli.commands.stock;
 
 import picocli.CommandLine.Command;
 
@@ -10,7 +10,7 @@ import java.util.concurrent.Callable;
 )
 public class StockEarnings implements Callable<Integer> {
     @Override
-    public Integer call() throws Exception {
+    public Integer call() {
         System.out.println("Stock earnings call results.");
         return 0;
     }
